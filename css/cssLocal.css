@@ -1,0 +1,42 @@
+@import"cssFont-face.css";
+
+#centro{
+    width: 80%;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+    background-color: #ffffff;
+    margin-top:20px;
+    padding-top: 20px;
+}
+
+#centro div{
+    display: inline-block;
+    margin: 30px;
+}
+
+#centro a{
+    text-decoration: none;
+    color:#cc0000;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+ 
+}
+td{
+    padding: 8px 40px 8px 8px;
+    text-align: left;
+    border-top: 1px solid #cc0000;
+}
+th {
+    padding: 8px 40px 8px 8px;
+    text-align: left;
+    border-bottom: 3px solid #cc0000;
+}
+
+.imgCon{
+    width: 60px;
+    height: 60px;
+}

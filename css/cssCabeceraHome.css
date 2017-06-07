@@ -1,0 +1,220 @@
+@import"cssFont-face.css";
+body{
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding:0;
+    font-family: fuente;
+    background-color:#696969;
+    text-align: center;
+}
+
+header{
+    background-color: black;
+    height: 11%;
+}
+#cabecera{
+    width: 90%;
+    color:#ffffff;
+    display: inline-block;
+}
+#logo{
+    margin:10px 0 0 10px;
+    width: auto;
+    display: inline-block;
+}
+#l1{
+    color: #cc0000;
+}
+#l2{
+    color: #ffffff;
+}
+.menu{
+    margin-left: 4%;
+}
+.botonMenu{
+    background-color: transparent;
+    color:#ffffff;
+    font-family: fuente;
+    border: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/*#buscador{
+    margin-left: 10%;
+}*/
+#divLogin{
+    width: 10%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 8px;
+}
+
+#imgLogin{
+    width: 35px;
+    height: 35px;
+    margin:0 0 0 10%;
+    display: inline-block;
+}
+.bottom{
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #cc0000;
+    border-radius: 6px;
+    border-color: transparent;
+    font-family: fuente;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+
+}
+td{
+    padding: 8px 40px 8px 8px;
+    text-align: left;
+    border-top: 1px solid #cc0000;
+}
+th {
+    padding: 8px 40px 8px 8px;
+    text-align: left;
+    border-bottom: 3px solid #cc0000;
+}
+
+.bottom:hover{
+    color: black;
+    background-color: #ffffff;
+}
+input{
+    font-family: fuente;
+}
+
+select{
+    font-family: fuente;
+}
+
+#menu
+{
+    display: inline-block;
+    position: absolute;
+    right: -40px;
+    top:70px;
+    width: 290px;
+    height: 300px;
+    background-color: #cccccc;
+    /* opacity: 0.9;*/
+    text-align: center;
+    z-index: 1;
+    padding-top: 10px;
+}
+
+#bucador{
+    width: 290px;
+    display: inline-block;
+}
+/*#menu button
+{
+    text-align: right;
+    display: block;
+    position: relative;
+    top:30px;
+    font-family: fuente; 
+    font-size: 20px;
+
+    width: 250px;
+    text-align: center;
+}*/
+#menu a
+{
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#menu form
+{
+    margin-top: 50px;
+}
+
+#salida
+{
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    top:5px;
+    width: 30px;
+    height: 30px;
+    z-index: 5;
+
+}
+
+#perfil a{
+    color: #000000;
+    font-size: 20px;
+}
+
+#imguser{
+    width: 50px;
+    height: 50px;
+
+}
+
+footer{
+    height: 10%;
+    width: 100%;
+    text-align: left;
+    background-color: #666666;
+    color:#ffffff;
+    margin-top:10px;
+    vertical-align: bottom;
+    bottom: 0px;
+
+
+}
+#contacto{
+    width: 50%;
+    height: 90%;
+    display: inline-block;
+    left:20px;
+
+
+
+
+}
+
+footer h4{
+    margin:2px;
+}
+.r{
+    color:#cc0000;
+}
+
+@media screen and (min-width:901px) and (max-width:1115px){
+    #buscador{
+        display: none;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:900px){
+    #buscador{
+        display: none;
+    }
+    #idioma{
+        display: none;
+    }
+}
+
+@media screen and (max-width:499px){
+    #buscador{
+        display: none;
+    }
+    #idioma{
+        display: none;
+    }
+    #index,#registro{
+        display: none;
+    }
+}

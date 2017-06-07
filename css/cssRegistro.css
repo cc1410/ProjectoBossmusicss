@@ -1,0 +1,21 @@
+@import"cssFont-face.css";
+
+
+#centro{
+    width: 80%;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+    background-color: #ffffff;
+    margin-top:20px;
+    padding-top: 20px;
+}
+
+.registro{
+    margin:70px;
+    font-size: 25px;
+}
+
+.mensajeRegistro{
+    margin-bottom: 20px;
+}
